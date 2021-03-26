@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b03612e2-7b07-4de8-a541-b7c37b5e403a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/PPRM_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/PPRM_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_core_3_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_ecs_4_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_kms_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_ram_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_sts_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_oss_aliyun_sdk_oss_3_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_9_0_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_9_0_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jdom_jdom2_2_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_websocket_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_1_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_websocket_5_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PPRM.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bgs/PPRMApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bgs/pojo/AccessTokenDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bgs/util/BaseResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bgs/util/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bgs/util/EncryptUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bgs/util/SnowFlake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bgs/util/StatusCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bgs/util/VerifyCodeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/DemandThreeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/LoggerGenerate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/css/bootstrap-fileinput.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/css/bootstrap-tab.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/css/bootstrap-datetimepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/css/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/bootstrap-datetimepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.bn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.ee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.hy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.pt-BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.rs-latin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.rs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.sw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.ua.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/datepicker/js/locales/bootstrap-datetimepicker.zh-TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/js/bootstrap-closable-tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/js/bootstrap-fileinput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/js/bootstrap-tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/js/bootstrap-table-zh-CN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/js/closable-tab-div.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/js/dataFormater.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/bootstrap-table-locale-all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/bootstrap-table-locale-all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/bootstrap-table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/bootstrap-table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/bootstrap-table.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/bootstrap-table.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/accent-neutralise/bootstrap-table-accent-neutralise.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/accent-neutralise/bootstrap-table-accent-neutralise.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/angular/bootstrap-table-angular.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/angular/bootstrap-table-angular.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/auto-refresh/bootstrap-table-auto-refresh.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/auto-refresh/bootstrap-table-auto-refresh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/auto-refresh/bootstrap-table-auto-refresh.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/click-edit-row/bootstrap-table-click-edit-row.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/click-edit-row/bootstrap-table-click-edit-row.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/click-edit-row/bootstrap-table-click-edit-row.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/cookie/bootstrap-table-cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/cookie/bootstrap-table-cookie.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/copy-rows/bootstrap-table-copy-rows.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/copy-rows/bootstrap-table-copy-rows.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/defer-url/bootstrap-table-defer-url.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/defer-url/bootstrap-table-defer-url.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/editable/bootstrap-table-editable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/editable/bootstrap-table-editable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/export/bootstrap-table-export.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/export/bootstrap-table-export.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/filter-control/bootstrap-table-filter-control.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/filter-control/bootstrap-table-filter-control.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/filter-control/bootstrap-table-filter-control.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/filter/bootstrap-table-filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/filter/bootstrap-table-filter.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/flat-json/bootstrap-table-flat-json.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/flat-json/bootstrap-table-flat-json.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/group-by-v2/bootstrap-table-group-by.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/group-by-v2/bootstrap-table-group-by.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/group-by-v2/bootstrap-table-group-by.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/group-by/bootstrap-table-group-by.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/group-by/bootstrap-table-group-by.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/group-by/bootstrap-table-group-by.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/i18n-enhance/bootstrap-table-i18n-enhance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/i18n-enhance/bootstrap-table-i18n-enhance.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/key-events/bootstrap-table-key-events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/key-events/bootstrap-table-key-events.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/mobile/bootstrap-table-mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/mobile/bootstrap-table-mobile.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/multi-column-toggle/bootstrap-table-multi-toggle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/multi-column-toggle/bootstrap-table-multi-toggle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/multiple-search/bootstrap-table-multiple-search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/multiple-search/bootstrap-table-multiple-search.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/multiple-sort/bootstrap-table-multiple-sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/multiple-sort/bootstrap-table-multiple-sort.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/natural-sorting/bootstrap-table-natural-sorting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/natural-sorting/bootstrap-table-natural-sorting.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/page-jumpto/bootstrap-table-jumpto.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/page-jumpto/bootstrap-table-jumpto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/page-jumpto/bootstrap-table-jumpto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/print/bootstrap-table-print.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/print/bootstrap-table-print.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/reorder-columns/bootstrap-table-reorder-columns.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/reorder-columns/bootstrap-table-reorder-columns.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/reorder-rows/bootstrap-table-reorder-rows.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/reorder-rows/bootstrap-table-reorder-rows.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/reorder-rows/bootstrap-table-reorder-rows.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/resizable/bootstrap-table-resizable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/resizable/bootstrap-table-resizable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/select2-filter/bootstrap-table-select2-filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/select2-filter/bootstrap-table-select2-filter.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/sticky-header/bootstrap-table-sticky-header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/sticky-header/bootstrap-table-sticky-header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/sticky-header/bootstrap-table-sticky-header.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/toolbar/bootstrap-table-toolbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/toolbar/bootstrap-table-toolbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/tree-column/bootstrap-table-tree-column.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/tree-column/bootstrap-table-tree-column.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/tree-column/bootstrap-table-tree-column.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/treegrid/bootstrap-table-treegrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/extensions/treegrid/bootstrap-table-treegrid.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-af-ZA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-af-ZA.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-ar-SA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-ar-SA.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-ca-ES.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-ca-ES.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-cs-CZ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-cs-CZ.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-da-DK.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-da-DK.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-de-DE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-de-DE.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-el-GR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-el-GR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-en-US.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-en-US.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-es-AR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-es-AR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-es-CL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-es-CL.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-es-CR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-es-CR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-es-ES.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-es-ES.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-es-MX.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-es-MX.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-es-NI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-es-NI.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-es-SP.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-es-SP.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-et-EE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-et-EE.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-eu-EU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-eu-EU.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-fa-IR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-fa-IR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-fr-BE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-fr-BE.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-fr-FR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-fr-FR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-he-IL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-he-IL.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-hr-HR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-hr-HR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-hu-HU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-hu-HU.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-id-ID.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-id-ID.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-it-IT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-it-IT.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-ja-JP.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-ja-JP.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-ka-GE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-ka-GE.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-ko-KR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-ko-KR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-ms-MY.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-ms-MY.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-nb-NO.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-nb-NO.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-nl-NL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-nl-NL.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-pl-PL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-pl-PL.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-pt-BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-pt-BR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-pt-PT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-pt-PT.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-ro-RO.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-ro-RO.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-ru-RU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-ru-RU.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-sk-SK.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-sk-SK.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-sv-SE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-sv-SE.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-th-TH.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-th-TH.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-tr-TR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-tr-TR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-uk-UA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-uk-UA.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-ur-PK.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-ur-PK.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-uz-Latn-UZ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-uz-Latn-UZ.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-vi-VN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-vi-VN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-zh-CN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-zh-TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/table/locale/bootstrap-table-zh-TW.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/font/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/font/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/font/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/font/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/jigsaw.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cxCalendar/css/jquery.cxcalendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cxCalendar/js/jquery.cxcalendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cxCalendar/js/jquery.cxcalendar.languages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/cxCalendar/js/jquery.cxcalendar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/Starry.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/bigtran.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/body-bgmain.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/icon_light.f13cff3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/noimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/google-maps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/kao/jquery-1.11.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/kao/jquery.easy-pie-chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/kao/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/kao/test.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/kao/time/jquery.countdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/console/prograss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/console/top-card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/console/top-search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/content/comment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/content/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/content/tags.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/forum/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/forum/replys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/layer/photos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/layim/getList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/layim/getMembers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/mall/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/message/all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/message/detail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/message/direct.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/message/new.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/message/notice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/table/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/table/demo2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/table/demo3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/table/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/table/user30.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/upload/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/user/forget.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/user/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/user/logout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/user/reg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/user/resetpass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/user/session.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/user/sms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/useradmin/mangadmin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/useradmin/role.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/useradmin/webuser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/workorder/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/说明.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/layim/html/chatlog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/layim/html/find.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/layim/html/getmsg.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/layim/html/msgbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/layim/layim.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/layim/mobile/layim.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/layim/skin/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/layim/skin/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/layim/skin/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/layim/skin/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/layim/skin/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/layim/skin/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/layim/voice/default.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/font/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/layim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/transfer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/lib/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/lib/extend/echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/lib/extend/echartsTheme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/lib/view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/modules/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/modules/console.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/modules/contlist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/modules/forum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/modules/im.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/modules/message.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/modules/sample.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/modules/senior.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/modules/set.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/modules/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/modules/useradmin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/modules/workorder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/style/admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/style/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/style/res/bg-none.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/style/res/layui-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/style/res/logo-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/style/res/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/style/res/template/character.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/style/res/template/huge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/style/res/template/portrait.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/style/template.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/tpl/layim/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/tpl/system/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/tpl/system/get.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/tpl/system/more.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/tpl/system/theme.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/tpl/system/说明.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/tpl/说明.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/login/denglu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/login/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/login/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/login/translate_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/login/translateelement.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/vue/axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/vue/element/fonts/element-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/vue/element/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/vue/element/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/vue/element/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/vue/qs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/vue/vue-router.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/vue/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/vue/vuex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bgs/PPRMApplication.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1qHFRZADl0XZ5I8FEwS7p7vnYNv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/bgs" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bgs.pojo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java\IDEA\PPRM\src\main\java\com\bgs" />
+      <recent name="D:\java\IDEA\PPRM\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="PPRMApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="PPRM" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bgs.PPRMApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b03612e2-7b07-4de8-a541-b7c37b5e403a" name="Default Changelist" comment="" />
+      <created>1616728600218</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616728600218</updated>
+      <workItem from="1616728603344" duration="696000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616729316317">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616729316317" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1616728830889">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1616728830889" />
+    <state x="835" y="411" width="273" height="274" key="Github.ShareDialog" timestamp="1616728824898">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="835" y="411" width="273" height="274" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616728824898" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1616729302920">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616729302920" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1616729302919">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616729302919" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1616729302919">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616729302919" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1616729302920">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616729302920" />
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom" timestamp="1616729302920">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616729302920" />
+    <state width="1877" height="282" key="GridCell.Tab.1.center" timestamp="1616729302920">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616729302920" />
+    <state width="1877" height="282" key="GridCell.Tab.1.left" timestamp="1616729302920">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616729302920" />
+    <state width="1877" height="282" key="GridCell.Tab.1.right" timestamp="1616729302920">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616729302920" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1616728747299">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1616728747299" />
+  </component>
+</project>
